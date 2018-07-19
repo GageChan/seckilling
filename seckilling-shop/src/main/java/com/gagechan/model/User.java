@@ -25,6 +25,6 @@ public class User extends Entity implements Serializable {
 		private String salt;
 		@TableField("last_login_time")
 		private Date lastLoginTime;
-		@TableField("login_count")
+		@TableField(value = "login_count",update = "%s+1")
 		private Integer loginCount;
 }

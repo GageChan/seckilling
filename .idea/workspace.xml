@@ -17,77 +17,41 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seckilling-shop/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-302">
-              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            <state relative-caret-position="-666">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/seckilling-shop/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SeckillingShopApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/SeckillingShopApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/dao/UserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27">
-              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#705#706#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#784#785#0" expanded="true" />
-                <element signature="e#819#820#0" expanded="true" />
-                <element signature="e#1009#1124#0" expanded="true" />
-                <element signature="e#1123#1124#0" expanded="true" />
-                <element signature="e#570#571#0" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceImplTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserServiceImplTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/seckilling-shop/src/test/java/com/gagechan/service/impl/UserServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-127">
-              <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+            <state relative-caret-position="-52">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Entity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/model/Entity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,20 +108,20 @@
         <option value="$PROJECT_DIR$/seckilling-shop/src/main/resources/templates/hello.html" />
         <option value="$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/Aspect/LogAop.java" />
-        <option value="$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/model/Entity.java" />
         <option value="$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/model/mappers/UserMapper.xml" />
         <option value="$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/dao/UserService.java" />
         <option value="$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/model/User.java" />
         <option value="$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/service/UserService.java" />
         <option value="$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/SeckillingShopApplication.java" />
         <option value="$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/seckilling-shop/src/test/java/com/gagechan/service/impl/UserServiceImplTest.java" />
         <option value="$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/seckilling-shop/pom.xml" />
         <option value="$PROJECT_DIR$/seckilling-shop/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/seckilling-shop/.gitignore" />
+        <option value="$PROJECT_DIR$/seckilling-shop/src/test/java/com/gagechan/service/impl/UserServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/model/Entity.java" />
+        <option value="$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/model/User.java" />
       </list>
     </option>
   </component>
@@ -198,7 +162,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1366" />
     <option name="height" value="692" />
@@ -216,11 +180,6 @@
             <path>
               <item name="seckilling" type="b2602c69:ProjectViewProjectNode" />
               <item name="seckilling" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seckilling" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seckilling" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seckilling" type="b2602c69:ProjectViewProjectNode" />
@@ -285,6 +244,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gagechan" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seckilling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seckilling" type="462c0819:PsiDirectoryNode" />
+              <item name="seckilling-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gagechan" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -315,6 +284,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
@@ -340,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SeckillingShopApplication">
+  <component name="RunManager" selected="JUnit.UserServiceImplTest.modify">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -357,6 +327,29 @@
       <option name="PACKAGE_NAME" value="com.gagechan.service.impl" />
       <option name="MAIN_CLASS_NAME" value="com.gagechan.service.impl.UserServiceImplTest" />
       <option name="METHOD_NAME" value="create" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="UserServiceImplTest.modify" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seckilling-shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gagechan.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.gagechan.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.gagechan.service.impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="modify" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -412,9 +405,11 @@
     <list>
       <item itemvalue="Spring Boot.SeckillingShopApplication" />
       <item itemvalue="JUnit.UserServiceImplTest.create" />
+      <item itemvalue="JUnit.UserServiceImplTest.modify" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceImplTest.modify" />
         <item itemvalue="JUnit.UserServiceImplTest.create" />
       </list>
     </recent_temporary>
@@ -429,23 +424,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531971923015</updated>
-      <workItem from="1531971926643" duration="12862000" />
+      <workItem from="1531971926643" duration="15189000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserServiceImplTest_create - 2018.07.19 at 15h 02m 01s.xml">
-      <configuration name="UserServiceImplTest.create" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceImplTest_create - 2018.07.19 at 15h 06m 21s.xml">
-      <configuration name="UserServiceImplTest.create" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceImplTest_create - 2018.07.19 at 15h 06m 48s.xml">
-      <configuration name="UserServiceImplTest.create" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceImplTest_create - 2018.07.19 at 15h 10m 16s.xml">
-      <configuration name="UserServiceImplTest.create" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserServiceImplTest_create - 2018.07.19 at 15h 13m 52s.xml">
       <configuration name="UserServiceImplTest.create" configurationId="JUnit" />
     </history-entry>
@@ -464,13 +447,24 @@
     <history-entry file="UserServiceImplTest_create - 2018.07.19 at 15h 52m 53s.xml">
       <configuration name="UserServiceImplTest.create" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserServiceImplTest_modify - 2018.07.19 at 16h 11m 12s.xml">
+      <configuration name="UserServiceImplTest.modify" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_modify - 2018.07.19 at 16h 21m 42s.xml">
+      <configuration name="UserServiceImplTest.modify" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_modify - 2018.07.19 at 16h 37m 44s.xml">
+      <configuration name="UserServiceImplTest.modify" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_modify - 2018.07.19 at 16h 41m 29s.xml">
+      <configuration name="UserServiceImplTest.modify" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12862000" />
+    <option name="totallyTimeSpent" value="15189000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1366" height="692" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1366" height="692" extended-state="1" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -489,17 +483,17 @@
       <window_info id="Image Layers" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32229966" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.271777" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.5818815" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49704143" visible="true" weight="0.29223743" />
+      <window_info anchor="bottom" id="Terminal" weight="0.20731707" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49704143" visible="true" weight="0.29223743" />
       <window_info anchor="bottom" id="Problems" />
       <window_info anchor="right" id="Bean Validation" />
       <window_info id="Web" sideWeight="0.5029586" side_tool="true" weight="0.24961948" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -543,16 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/model/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/service/dd.aj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -567,37 +551,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/SeckillingShopApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -644,24 +601,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seckilling-shop/src/test/java/com/gagechan/service/impl/UserServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/seckilling-shop/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+        <state relative-caret-position="251">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/SeckillingShopApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/seckilling-shop/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-302">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        <state relative-caret-position="-666">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seckilling-shop/.gitignore">
+    <entry file="file://$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/model/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        <state relative-caret-position="147">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seckilling-shop/src/main/java/com/gagechan/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seckilling-shop/src/test/java/com/gagechan/service/impl/UserServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>

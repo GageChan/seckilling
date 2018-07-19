@@ -33,6 +33,9 @@ public class UserServiceImplTest {
 
 	@Test
 	public void modify() {
+		User user = service.get(4);
+		user.setLastLoginTime(new Date());
+		service.modify(user);
 	}
 
 	@Test

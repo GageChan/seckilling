@@ -21,6 +21,6 @@ public class Entity {
 	private long id;
 	@TableField("create_time")
 	private Date createTime;
-	@TableField("update_time")
+	@TableField(value = "update_time",update = "now()")
 	private Date updateTime;
 }
