@@ -1,5 +1,6 @@
 package com.gagechan.Aspect;
 
+import com.gagechan.common.utils.IPUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.After;
@@ -26,7 +27,7 @@ import java.util.Enumeration;
 @Slf4j
 @Component
 @Aspect
-public class LogAop {
+public class LogAspect {
 	@Pointcut("execution(public * com.gagechan.controller.*Controller.*(..))")
 	public void controller(){
 	}
@@ -39,7 +40,7 @@ public class LogAop {
 
 		log.info("URL:{}",request.getRequestURL());
 		log.info("HTTP_METHOD:{}",request.getMethod());
-		log.info("IP:{}",request.getRemoteAddr());
+		log.info("IP:{}",IPUtils.getIpAddr(request));
 		log.info("CLASS_METHOD:{}.{}",point.getSignature().getDeclaringTypeName(),point.getSignature().getName());
 		log.info("parameters:");
 		Enumeration<String> enu = request.getParameterNames();

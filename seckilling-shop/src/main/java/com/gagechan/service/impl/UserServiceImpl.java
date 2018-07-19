@@ -45,7 +45,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper,User> implements Use
 		return baseMapper.selectList(new Wrapper<User>() {
 			@Override
 			public String getSqlSegment() {
-				return "select * from sck_user";
+				return null;
 			}
 		});
 	}

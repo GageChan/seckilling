@@ -29,6 +29,10 @@
         <druid.version>1.1.9</druid.version>
         <mybatisplus.version>2.3</mybatisplus.version>
         <mysql.version>5.1.38</mysql.version>
+        <commons.lang.version>2.6</commons.lang.version>
+        <commons.fileupload.version>1.3.1</commons.fileupload.version>
+        <commons.io.version>2.5</commons.io.version>
+        <commons.codec.version>1.10</commons.codec.version>
     </properties>
 
     <dependencies>
@@ -69,6 +73,26 @@
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>${mybatisplus.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>${commons.lang.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+            <version>${commons.fileupload.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${commons.io.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>${commons.codec.version}</version>
         </dependency>
         <!--diy end-->
     </dependencies>

@@ -32,6 +32,8 @@ spring:
         wall:
             config:
                 multi-statement-allow: true
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
 
 # mybatisplus
 mybatis-plus:
@@ -61,5 +63,4 @@ mybatis-plus:
 logging:
   level:
     com.gagechan.dao : debug
-
 
