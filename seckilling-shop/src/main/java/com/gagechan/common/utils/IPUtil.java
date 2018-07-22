@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
  * @date 2017年3月8日 下午12:57:02
  */
 @Slf4j
-public class IPUtils {
+public class IPUtil {
 
 	/**
 	 * 获取IP地址
@@ -41,7 +41,7 @@ public class IPUtils {
                 ip = request.getRemoteAddr();
             }
         } catch (Exception e) {
-        	log.error("IPUtils ERROR ", e);
+        	log.error("IPUtil ERROR ", e);
         }
         
         return ip;

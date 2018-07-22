@@ -3,11 +3,14 @@ package com.gagechan.controller;
 import com.gagechan.common.utils.R;
 import com.gagechan.model.User;
 import com.gagechan.service.UserService;
+import com.gagechan.vo.LoginVo;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 /**
@@ -19,6 +22,7 @@ import java.util.List;
  *
  * @description:
  **/
+@Slf4j
 @Controller
 public class IndexController {
 
@@ -28,10 +32,18 @@ public class IndexController {
 	@RequestMapping("hello")
 	@ResponseBody
 	public R index(){
-
 		List<User> users = userService.getAll();
-
 		return R.ok().put("data",users);
+	}
 
+	@GetMapping("login.htm")
+	public String login(){
+		return "modules/login";
+	}
+	@PostMapping("login.do")
+	@ResponseBody
+	public R doLogin(@RequestBody LoginVo loginVo){
+		String token = userService.login(loginVo.getUsername(),loginVo.getPassword());
+		return R.ok().put("token",token);
 	}
 }

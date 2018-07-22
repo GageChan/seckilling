@@ -1,0 +1,12 @@
+.container{
+    background: url("../images/background.svg");
+    height: 100vh;
+    overflow: hidden;
+}
+.login-panel{
+    margin: 250px auto;
+    width: 15%;
+}
+.forget-pass{
+    font-size: 14px;
+}

@@ -11,4 +11,5 @@ public interface UserService extends IService<User> {
 	int remove(long id);
 	List<User> getAll();
 	User get(long id);
+	String login(String username,String password);
 }

@@ -1,6 +1,6 @@
 package com.gagechan.Aspect;
 
-import com.gagechan.common.utils.IPUtils;
+import com.gagechan.common.utils.IPUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.After;
@@ -40,7 +40,7 @@ public class LogAspect {
 
 		log.info("URL:{}",request.getRequestURL());
 		log.info("HTTP_METHOD:{}",request.getMethod());
-		log.info("IP:{}",IPUtils.getIpAddr(request));
+		log.info("IP:{}",IPUtil.getIpAddr(request));
 		log.info("CLASS_METHOD:{}.{}",point.getSignature().getDeclaringTypeName(),point.getSignature().getName());
 		log.info("parameters:");
 		Enumeration<String> enu = request.getParameterNames();

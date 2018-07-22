@@ -34,7 +34,11 @@ spring:
                 multi-statement-allow: true
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
-
+  redis:
+    host: 127.0.0.1
+    password: 123456
+    database: 2
+    port: 6379
 # mybatisplus
 mybatis-plus:
   mapper-locations: classpath:mappers/*.xml
@@ -63,4 +67,3 @@ mybatis-plus:
 logging:
   level:
     com.gagechan.dao : debug
-

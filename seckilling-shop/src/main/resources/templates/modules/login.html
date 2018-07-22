@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>登录</title>
+    <link rel="stylesheet" type="text/css" href="http://unpkg.com/iview/dist/styles/iview.css">
+    <link rel="stylesheet" th:href="@{/css/login.css}">
+</head>
+<script type="text/javascript" src="http://vuejs.org/js/vue.min.js"></script>
+<script type="text/javascript" src="http://unpkg.com/iview/dist/iview.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<body>
+    <div class="container">
+        <div id="app" class="login-panel">
+            <h1 align="center">Seckilling</h1>
+            <br>
+            <tabs>
+                <tab-pane label="密码登录" icon="person">
+                    <i-form>
+                        <form-item prop="user">
+                            <i-input type="text" v-model="username" placeholder="请输入用户名">
+                                <icon type="person" slot="prepend"></icon>
+                            </i-input>
+                        </form-item>
+                        <form-item prop="password">
+                            <i-input type="password" v-model="password" placeholder="请输入密码">
+                                <icon type="locked" slot="prepend"></icon>
+                            </i-input>
+                        </form-item>
+                    </i-form>
+                </tab-pane>
+                <tab-pane label="短信登录" icon="iphone">
+                    <i-form>
+                        <form-item prop="user">
+                            <i-input type="text" placeholder="请输入手机号码">
+                                <icon type="person" slot="prepend"></icon>
+                            </i-input>
+                        </form-item>
+                        <form-item prop="text">
+                            <i-input type="text" placeholder="请输入短信验证码">
+                                <icon type="chatbox-working" slot="prepend"></icon>
+                            </i-input>
+                        </form-item>
+                    </i-form>
+                </tab-pane>
+            </tabs>
+            <Row type="flex" justify="space-between" class="code-row-bg">
+                <Checkbox size="large">自动登录</Checkbox>
+                <a class="forget-pass">忘记密码</a>
+            </Row>
+            <br>
+            <Row>
+                <i-button class="login-btn" type="primary" size="large" long :loading="loading" @click="login">
+                    <span v-if="!loading">登录</span>
+                    <span v-else>登录中...</span>
+                </i-button>
+            </Row>
+        </div>
+    </div>
+</body>
+
+<script th:src="@{/js/md5.min.js}"></script>
+<script th:src="@{/js/login.js}"></script>
+</html>
